@@ -62,8 +62,6 @@ struct HomeView: View {
                     }
                     .onBottomSheetDrag { translation in
                         bottomSheetTranslation = translation / screenHight
-                        
-                        
                         withAnimation(.easeInOut) {
                             if bottomSheetPosition == BottomSheetPosition.top
                             {

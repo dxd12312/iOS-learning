@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED8DB9FC2A38049200A6518B /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DB9FB2A38049200A6518B /* NavigationBar.swift */; };
+		ED8DB9FE2A380AE800A6518B /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DB9FD2A380AE800A6518B /* WeatherView.swift */; };
+		ED8DBA002A380CE400A6518B /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8DB9FF2A380CE400A6518B /* WeatherWidget.swift */; };
 		EDA5D9B52A316D1400C773E8 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5D9B42A316D1400C773E8 /* WeatherApp.swift */; };
 		EDA5D9B72A316D1400C773E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5D9B62A316D1400C773E8 /* ContentView.swift */; };
 		EDA5D9B92A316D1500C773E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA5D9B82A316D1500C773E8 /* Assets.xcassets */; };
@@ -18,9 +21,15 @@
 		EDA5D9D32A31A4FA00C773E8 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = EDA5D9D22A31A4FA00C773E8 /* BottomSheet */; };
 		EDA5D9D52A31ABB200C773E8 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5D9D42A31ABB200C773E8 /* ForecastView.swift */; };
 		EDA5D9D72A31B04D00C773E8 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5D9D62A31B04D00C773E8 /* Blur.swift */; };
+		EDFA3D252A36BF7A004407B3 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA3D242A36BF7A004407B3 /* SegmentedControl.swift */; };
+		EDFA3D272A36E844004407B3 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA3D262A36E844004407B3 /* ForecastModel.swift */; };
+		EDFA3D292A36F1B0004407B3 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFA3D282A36F1B0004407B3 /* ForecastCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED8DB9FB2A38049200A6518B /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		ED8DB9FD2A380AE800A6518B /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		ED8DB9FF2A380CE400A6518B /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
 		EDA5D9B12A316D1400C773E8 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA5D9B42A316D1400C773E8 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		EDA5D9B62A316D1400C773E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +41,9 @@
 		EDA5D9CF2A319BB800C773E8 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		EDA5D9D42A31ABB200C773E8 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		EDA5D9D62A31B04D00C773E8 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		EDFA3D242A36BF7A004407B3 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		EDFA3D262A36E844004407B3 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		EDFA3D282A36F1B0004407B3 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		EDA5D9C32A316F9400C773E8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EDFA3D262A36E844004407B3 /* ForecastModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -123,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				EDA5D9CD2A317F3300C773E8 /* TabBar.swift */,
+				ED8DB9FB2A38049200A6518B /* NavigationBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -131,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				EDA5D9D42A31ABB200C773E8 /* ForecastView.swift */,
+				ED8DB9FD2A380AE800A6518B /* WeatherView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -139,6 +154,9 @@
 			isa = PBXGroup;
 			children = (
 				EDA5D9D62A31B04D00C773E8 /* Blur.swift */,
+				EDFA3D242A36BF7A004407B3 /* SegmentedControl.swift */,
+				EDFA3D282A36F1B0004407B3 /* ForecastCard.swift */,
+				ED8DB9FF2A380CE400A6518B /* WeatherWidget.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -219,14 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8DBA002A380CE400A6518B /* WeatherWidget.swift in Sources */,
+				EDFA3D292A36F1B0004407B3 /* ForecastCard.swift in Sources */,
 				EDA5D9B72A316D1400C773E8 /* ContentView.swift in Sources */,
+				EDFA3D252A36BF7A004407B3 /* SegmentedControl.swift in Sources */,
 				EDA5D9CC2A31718800C773E8 /* HomeView.swift in Sources */,
 				EDA5D9D72A31B04D00C773E8 /* Blur.swift in Sources */,
+				ED8DB9FE2A380AE800A6518B /* WeatherView.swift in Sources */,
 				EDA5D9CA2A31708800C773E8 /* Extensions.swift in Sources */,
 				EDA5D9B52A316D1400C773E8 /* WeatherApp.swift in Sources */,
 				EDA5D9D52A31ABB200C773E8 /* ForecastView.swift in Sources */,
 				EDA5D9CE2A317F3300C773E8 /* TabBar.swift in Sources */,
+				EDFA3D272A36E844004407B3 /* ForecastModel.swift in Sources */,
 				EDA5D9D02A319BB800C773E8 /* Shapes.swift in Sources */,
+				ED8DB9FC2A38049200A6518B /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
